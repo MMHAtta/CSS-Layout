@@ -1,0 +1,64 @@
+try to make image as 
+img {
+    max-width: 100%;
+    display: block;
+
+remove text decoration to remove underline in link
+
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    text-decoration: none;
+    color: rgb(171, 171, 171);
+    border-radius: 20% solid black;
+
+
+
+}
+
+.five {
+    width: 15rem;
+    list-style: none;
+}
+
+.five:hover {
+
+    cursor: pointer;
+}
+
+.six {
+    color: rgb(171, 171, 171);
+
+
+}
+
+.six:hover {
+    color: rgb(49, 193, 174);
+    transition: 250ms ease-in-out;
+    background-color: rgb(225, 230, 230);
+
+}
+
+#button {
+    /* display: inline-block; */
+    /* padding: 1rem; */
+
+}
+
+
+#dd {}
+
+#dd:active ul {
+    display: block;
+}
+
+#dd:active ul:hover {
+    display: block;
+}
+
+#dd:active #button {
+    display: inline-block;
+    padding: 10px;
+
+}
